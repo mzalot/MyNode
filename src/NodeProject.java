@@ -16,8 +16,17 @@ public class NodeProject <T>{
     //store a way to assign values to the nodes
     private T value;
 
+    //default constructor
+    public NodeProject(){
+    }
     //1 variable constructor
     public NodeProject(T value){
         this.value = value;
+    }
+    //3 variable constructor
+    public NodeProject(T value, NodeProject node1, NodeProject node2){
+        this.value = value;
+        this.node1 = node1;
+        this.node2 = node2;
     }
 }
