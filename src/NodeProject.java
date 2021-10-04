@@ -20,9 +20,14 @@ public class NodeProject <T>{
 
     //default constructor
     public NodeProject(){
+        node1 = null;
+        node2 = null;
+        value = null;
     }
     //1 variable constructor
     public NodeProject(T value){
+        node1 = null;
+        node2 = null;
         this.value = value;
     }
     //3 variable constructor
