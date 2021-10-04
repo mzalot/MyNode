@@ -4,8 +4,8 @@ import javax.xml.soap.Node;
  NodeProject
  The program will create a node
  Author: Mareks Zeile
- Collaborator(s):
- Collaboration:
+ Collaborator(s): Henry Johnson
+ Collaboration: Discussed concepts of a node
  Date: 9/29/21
  **/
 public class NodeProject <T>{
